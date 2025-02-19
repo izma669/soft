@@ -12,4 +12,4 @@ yum install -y curl
 Ubuntu/Debian系统请输入
 apt install -y curl
 
-bash <(curl -Ls https://raw.githubusercontent.com/daveleung/hijkpw-scripts-mod/main/xray_mod1.sh)
+bash <(curl -Ls https://github.com/izma669/soft/blob/master/vps/xray.sh)
