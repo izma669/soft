@@ -1,3 +1,11 @@
+debian 9k可用源
+deb http://archive.debian.org/debian/ stretch main contrib non-free
+deb-src http://archive.debian.org/debian/ stretch main contrib non-free
+deb http://archive.debian.org/debian-security/ stretch/updates main contrib non-free
+deb-src http://archive.debian.org/debian-security/ stretch/updates main contrib non-free
+deb http://archive.debian.org/debian/ stretch-backports main contrib non-free
+
+
 BBR安装教程
 使用 SSH 客户端连接你的服务器，运行以下脚本。
 
