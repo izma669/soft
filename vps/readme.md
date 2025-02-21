@@ -20,4 +20,4 @@ yum install -y curl
 Ubuntu/Debian系统请输入
 apt install -y curl
 
-bash <(curl -Ls https://github.com/izma669/soft/blob/master/vps/xray.sh)
+bash <(curl -s -L https://raw.githubusercontent.com/xyz690/v2ray/master/onestep.sh)
