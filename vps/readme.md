@@ -15,6 +15,9 @@ sudo pat autoremove
 或
 sudo apt autocliean
 
+修改DNS
+sudo nano /etc/resolv.conf
+
 
 BBR安装教程
 使用 SSH 客户端连接你的服务器，运行以下脚本。
