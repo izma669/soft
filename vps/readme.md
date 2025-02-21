@@ -5,6 +5,16 @@ deb http://archive.debian.org/debian-security/ stretch/updates main contrib non-
 deb-src http://archive.debian.org/debian-security/ stretch/updates main contrib non-free
 deb http://archive.debian.org/debian/ stretch-backports main contrib non-free
 
+修复损坏的包
+sudo apt -f install
+或
+apt --fix-broken install
+
+清理无用的包
+sudo pat autoremove
+或
+sudo apt autocliean
+
 
 BBR安装教程
 使用 SSH 客户端连接你的服务器，运行以下脚本。
