@@ -1,0 +1,2 @@
+噗悦
+0 18 * * * /etc/init.d/passwall_server restart
