@@ -1,0 +1,1 @@
+owntone make文件中需要手动指定增加libevent2-pthreads依赖
