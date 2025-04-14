@@ -8,3 +8,4 @@ alsa-utils
 aplay -l
 调整声卡音量和其它设置
 alsamixer
+owntone 28.11 node > 18 
