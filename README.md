@@ -69,3 +69,9 @@ git commit -m "描述你的修改"
 
 git push
 
+
+
+清理目标插件编译目录
+
+
+make package/目标插件名称/clean
