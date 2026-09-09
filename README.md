@@ -45,6 +45,14 @@ make clean
 
 make dirclean
 
+
+
+完全重置,这是最彻底的清理方法。它会删除所有内容，包括已下载的源码包、编译工具链，以及你的编译配置文件（.config）。效果等同于将源码目录恢复到刚克隆时的状态
+
+make distclean
+
+
+
 关于推送：
 
 GIT 新规则已经不支持密码策略了，需要生成令牌，生成方法：点击头像 Settings → Developer settings → Personal access tokens → Tokens (classic) → Generate new token，并勾选 repo 权限。
@@ -61,8 +69,3 @@ git commit -m "描述你的修改"
 
 git push
 
-
-
-完全重置,这是最彻底的清理方法。它会删除所有内容，包括已下载的源码包、编译工具链，以及你的编译配置文件（.config）。效果等同于将源码目录恢复到刚克隆时的状态
-
-make distclean
