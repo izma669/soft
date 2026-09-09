@@ -46,12 +46,19 @@ make clean
 make dirclean
 
 关于推送：
+
 GIT 新规则已经不支持密码策略了，需要生成令牌，生成方法：点击头像 Settings → Developer settings → Personal access tokens → Tokens (classic) → Generate new token，并勾选 repo 权限。
 
+
+
 提交修改并添加描述
+
 git commit -m "描述你的修改"
 
+
+
 推送到远端仓库
+
 git push
 
 
