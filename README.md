@@ -46,9 +46,14 @@ make clean
 make dirclean
 
 
+# 提交（添加提交信息）
+git commit -m "描述你的修改"
+
+# 然后推送
+git push
+
+
 
 完全重置,这是最彻底的清理方法。它会删除所有内容，包括已下载的源码包、编译工具链，以及你的编译配置文件（.config）。效果等同于将源码目录恢复到刚克隆时的状态
 
 make distclean
-
-
