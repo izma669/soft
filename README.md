@@ -1,3 +1,6 @@
+ddns https dynv6证书申请教程 https://tieba.baidu.com/p/7337180082
+
+
 19.07
 
 cd && git clone -b 19.07 https://github.com/izma669/Lienol-openwrt 19.07 && cd 19.07 && ./scripts/feeds update -a && ./scripts/feeds install -a && ./scripts/feeds install -a && make menuconfig
