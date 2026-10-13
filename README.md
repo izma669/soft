@@ -26,6 +26,13 @@ cd && git clone -b master https://github.com/izma669/lede-openwrt lede && cd led
 make download V=s -j8 && make V=s -j$(nproc)
 
 
+
+适合测试 下载DLL库，全核心编译
+
+./scripts/feeds update -a && ./scripts/feeds install -a && ./scripts/feeds install -a && make download V=s -j8 && make V=s -j$(nproc)
+
+
+
 删除配置
 
 rm -rf .config
