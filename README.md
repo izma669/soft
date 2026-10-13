@@ -32,6 +32,12 @@ make download V=s -j8 && make V=s -j$(nproc)
 ./scripts/feeds update -a && ./scripts/feeds install -a && ./scripts/feeds install -a && make download V=s -j8 && make V=s -j$(nproc)
 
 
+清理指定包的译缓存
+彻底清除这个包的缓存（有时候 OpenWrt 的 build_dir 缓存极其顽固）：
+
+make package/luci-app-nginx-manager/clean
+# 或者更彻底一点
+rm -rf build_dir/target-*/luci-app-nginx-manager
 
 删除配置
 
