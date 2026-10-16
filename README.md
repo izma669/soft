@@ -1,6 +1,13 @@
 《《《《《《《《不建议在网页端直接粘贴代码容易被转换或者漏掉特殊字符
 
 
+
+ssh 服务安装
+sudo apt update
+sudo apt install openssh-server -y
+
+
+
 19.07
 
 cd && git clone -b 19.07 https://github.com/izma669/Lienol-openwrt 19.07 && cd 19.07 && ./scripts/feeds update -a && ./scripts/feeds install -a && ./scripts/feeds install -a && make menuconfig
