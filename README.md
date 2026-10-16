@@ -3,8 +3,7 @@
 
 
 ssh 服务安装
-sudo apt update
-sudo apt install openssh-server -y
+sudo apt update && sudo apt install openssh-server -y
 
 
 
